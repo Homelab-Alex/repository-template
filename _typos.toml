@@ -1,0 +1,2 @@
+# Configure false positives for typos
+[default.extend-words]
