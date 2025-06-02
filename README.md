@@ -7,11 +7,9 @@ This template currently provides the following features:
 
 * Automatically protects the `main` branch from direct pushes
 * Automatically assign issues and pull requests
-* Pre-commit hooks for:
+* Pre-commit hooks and actions for:
   * Secret scanning
   * Spell checking
-
-Spelling error to check spell checkinga
 
 ## Getting Started
 Simply create a new repository using this template, ensuring that the visibility is set to `public`. 
@@ -19,4 +17,5 @@ The `Initialize Repository` action will automatically configure the repository w
 
 > [!NOTE]
 > Making the repository public is needed because branch protection rules are not applied to private
-> repositories when using the free tier of GitHub Organizations.
+> repositories when using the free tier of GitHub Organizations. Also, Organization secrets cannot be
+> used in private repositories.

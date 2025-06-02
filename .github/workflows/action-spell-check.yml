@@ -1,0 +1,22 @@
+name: Spell Check
+
+on:
+  pull_request:
+  push:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 2 * * *"  # Every day at 02:00
+
+permissions:
+  contents: read
+
+jobs:
+  spelling:
+    name: Spell Check with Typos
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout files
+        uses: actions/checkout@v4
+
+      - name: Spell Check
+        uses: crate-ci/typos@v1.33.1
