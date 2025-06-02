@@ -8,3 +8,4 @@ This template provides the following features:
 
 ## Getting Started
 *TODO*
+Test
