@@ -22,3 +22,6 @@ local machine. After installation, run the command `pre-commit install` in the r
 > Making the repository public is needed because branch protection rules are not applied to private
 > repositories when using the free tier of GitHub Organizations. Also, Organization secrets cannot be
 > used in private repositories.
+
+## Known issues
+* Occasionally, the `action-secret-scanner` may fail with a `fatal: ambiuous argument '...'` error
