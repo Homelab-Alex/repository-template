@@ -8,5 +8,9 @@ This template currently provides the following features:
 * Automatically protects the `main` branch from direct pushes.
 
 ## Getting Started
-Simply create a new repository using this template. The `Initialize Repository` action will automatically
-configure the repository with the necessary settings.
+Simply create a new repository using this template, ensuring that the visibility is set to `public`. 
+The `Initialize Repository` action will automatically configure the repository with the necessary settings.
+
+> [!NOTE]
+> Making the repository public is needed because branch protection rules are not applied to private
+> repositories when using the free tier of GitHub Organizations.
