@@ -1,5 +1,10 @@
-data "github_repository" "current_repository" {}
+# Protect the main branch of the current repository
+resource "github_branch_protection_v3" "branch_protection" {
+  repository     = var.current_repository
+  branch         = "main"
+  enforce_admins = true
 
-output "repository_name" {
-  value = data.github_repository.current_repository.name
+  required_pull_request_reviews {
+    required_approving_review_count = 0
+  }
 }
