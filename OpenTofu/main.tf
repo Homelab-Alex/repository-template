@@ -1,7 +1,5 @@
-output "repository_name" {
-  value = var.github_repository_name
-}
-
-output "organization_name" {
-  value = var.github_organization
+# Protect the main branch of the current repository
+resource "github_branch_protection_v3" "branch_protection" {
+  repository = var.current_repository
+  branch     = "main"
 }

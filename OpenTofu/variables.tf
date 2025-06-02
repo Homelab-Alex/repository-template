@@ -8,7 +8,7 @@ variable "github_token" {
   description = "GitHub personal access token with repo permissions"
 }
 
-variable "github_repository_name" {
+variable "current_repository" {
   type        = string
-  description = "Name of the current GitHub repository"
+  description = "Full name of the current GitHub repository (e.g., 'owner/repo')"
 }
