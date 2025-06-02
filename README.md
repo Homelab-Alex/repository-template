@@ -11,8 +11,7 @@ This template currently provides the following features:
   * Secret scanning
   * Spell checking
 
-Speling eror to check spell cheking
-This is a secret: 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef
+Spelling error to check spell checkinga
 
 ## Getting Started
 Simply create a new repository using this template, ensuring that the visibility is set to `public`. 

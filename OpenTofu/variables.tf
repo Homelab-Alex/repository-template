@@ -6,6 +6,7 @@ variable "github_organization" {
 variable "github_token" {
   type        = string
   description = "GitHub personal access token with repo permissions"
+  default     = "1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef"
 }
 
 variable "current_repository" {
