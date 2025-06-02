@@ -7,6 +7,9 @@ This template currently provides the following features:
 
 * Automatically protects the `main` branch from direct pushes
 * Automatically assign issues and pull requests
+* Pre-commit hooks for:
+  * Secret scanning
+  * Spell checking
 
 ## Getting Started
 Simply create a new repository using this template, ensuring that the visibility is set to `public`. 
