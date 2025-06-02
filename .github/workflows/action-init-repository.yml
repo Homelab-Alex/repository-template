@@ -11,7 +11,7 @@ env:
 
 defaults:
   run:
-    working-directory: $${{ env.tf_actions_working_dir }}
+    working-directory: $tf_actions_working_dir
 
 jobs:
   init-repository:
