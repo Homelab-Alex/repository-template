@@ -1,5 +1,7 @@
-data "github_repository" "current_repository" {}
-
 output "repository_name" {
-  value = data.github_repository.current_repository.name
+  value = var.github_repository_name
+}
+
+output "organization_name" {
+  value = var.github_organization
 }
